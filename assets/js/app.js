@@ -15,7 +15,7 @@ $(function() {
     });
 
     function checkScroll(scrollOffset) {
-        if( scrollOffset >= introH ) {
+        if( scrollOffset >= introH -50) {
             header.addClass("fixed");
         } else {
             header.removeClass("fixed");
@@ -37,7 +37,7 @@ $(function() {
         $this.addClass("active");
 
         $("html, body").animate({
-            scrollTop: blockOffset }, 600);
+            scrollTop: blockOffset -80 }, 600);
     });
 
 
