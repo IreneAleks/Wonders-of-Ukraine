@@ -51,5 +51,22 @@ $(function() {
     });
 
 
+    // Arrow up
+
+    $(window).scroll(function() {
+        let scrolled = $(window).scrollTop();
+      
+        if (scrolled > 500) {
+          $('#arrow-up').addClass('active');
+        } else {
+          $('#arrow-up').removeClass('active');
+        }
+      });
+      
+      $('#arrow-up').click(function() {
+        $('body,html').animate({scrollTop: 0}, 800)
+      });
+
+
 
 });
