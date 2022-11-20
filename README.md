@@ -1,2 +1,4 @@
 # Wonders-of-Ukraine
-My first pet-project
+My pet-project
+
+HTML, CSS, JavaScript, Adobe Photoshop, Адаптивна верстка
